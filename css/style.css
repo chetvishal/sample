@@ -1,0 +1,145 @@
+*{
+	margin:0px;
+	padding: 0px;
+}
+html{
+	scroll-behavior: smooth;
+}
+#navbar{
+	display: flex;
+	position: sticky;
+	margin-top: 0px;
+	top: 0px;
+	/*width: 0px;*/
+} 
+#navbar::before{
+	content: "";
+    background-color: black;
+    position: absolute;
+    top:0px;
+    left:0px;
+    height: 100%;
+    width:100%;
+    z-index: -1;
+    opacity: 0.7;
+}
+#logo img{
+	height: 78px;
+	margin-left: 35px;
+}
+#navbar ul{
+	display: flex;
+	margin-left: 40px;
+	margin-top: 28px;
+}
+#navbar ul li{
+	list-style: none;
+}
+#navbar ul li a{
+	text-decoration: none;
+	color: white;
+	margin: 0px 21px;
+	font-family: "Futura Md BT",'Source Sans Pro', sans-serif;
+	font-size: 1.2rem;
+}
+section{
+	width: 1004;
+	height: 1000px;
+	display: flex;
+	flex-direction: column;
+	/*border: 1px solid black;*/
+	justify-content: center; 
+}
+
+#pubg{
+	/*background-color: orange;*/
+	/*height: 918px;*/
+}
+h1{
+	font-family: "Futura Md BT",'Source Sans Pro', sans-serif;
+	margin-left: 45px;
+	font-size: 5rem;
+	color: white;
+	
+}
+p{
+	font-family: "Futura Md BT",'Source Sans Pro', sans-serif;
+	margin-left: 50px;
+    width: 580px;
+    margin-top: 10px;
+    font-size: 1.2rem;
+    color: white;
+
+}
+.btn{
+	border-radius: 51px;
+	font-family: "Futura Md BT",'Source Sans Pro', sans-serif;
+	margin-top: 18px;
+	margin-left: 50px;
+	width: 210px;
+    height: 57px;
+    font-size: 21px;
+	border: none;
+	cursor: pointer;
+    
+/*background: none;*/
+}
+#pubg::before{
+	content: "";
+	position: absolute;
+    background: url("../images/pubg.jpg") no-repeat center center/cover;
+    height: 1083px;
+    top:0px;
+    left:0px;
+    width: 100%;
+    z-index: -1;
+    opacity:0.89;
+    filter: brightness(60%);
+}
+/*#Fortnite::before{
+	content: "";
+	position: absolute;
+    background: url("../images/pubg.jpg") no-repeat center center/cover;
+    height: 1000px;
+    top:0px;
+    left:0px;
+    width: 100%;
+    z-index: -2;
+    opacity:0.89;
+    filter: brightness(60%);
+}*/
+#Fortnite{
+	background: url("../images/fortnite.jpg") no-repeat center center/cover;
+    height: 1000px;
+    filter: brightness(-7.5);
+}
+#Fortnite img{
+	opacity: 2;
+}
+#COD{
+	background: url("../images/warzone.jpg") no-repeat center center/cover;
+    height: 1000px;
+    width: 1004
+    filter: brightness(-14.5);;
+}
+#COD p{
+	color: black;
+}
+#COD h1{
+	color: black;
+}
+#Apex{
+	background: url("../images/apex.jpg") no-repeat center center/cover;
+    height: 1000px;
+    filter: brightness(-0.5);
+}
+footer{
+	height: 71px;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #7d7d7d;
+	background-color: black;
+	/* #ffcfcf */
+}

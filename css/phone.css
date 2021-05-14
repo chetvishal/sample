@@ -1,0 +1,7 @@
+#navbar {
+    display: flex;
+    position: sticky;
+    margin-top: 0px;
+    top: 0px;
+    justify-content: center;
+}
